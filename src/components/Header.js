@@ -40,7 +40,7 @@ const Header = () => {
       });
   };
   return (
-    <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black flex justify-between">
+    <div className="z-10 absolute w-screen px-8 py-2 bg-gradient-to-b from-black flex justify-between">
       <img className="w-44" src={NETFLIX_LOGO} alt="logo" />
       {user && (
         <div className="flex p-2 items-center">
