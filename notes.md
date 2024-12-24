@@ -9,9 +9,13 @@ Steps for deploying project in Firebase
 3. firebase init - to initialize firebase by selecting hosting
 4. firebase deploy - to deploy firebase
 
-
-
 Note: To navigate to a different route, you can use 'useNavigate' hook from react-router-dom;
 import { useNavigate } from "react-router-dom";
 const navigate = useNavigate();
 navigate("/browser")
+
+With <React.StrictMode> every call will happen twice, because react does some additional steps to check for inconsistencies. This happens only in local . So you can keep this. It's good for development
+
+<React.StrictMode>
+<App />
+</React.StrictMode>
