@@ -54,3 +54,7 @@
 - TMBD Image CDN URL
 - Made the Browse page amazing with Tailwind CSS
 - usePopularMovies Custom hoook
+- GPT search feature
+- GPT Search Page
+- GPT Search Bar
+- Multi-Language feature in our App
