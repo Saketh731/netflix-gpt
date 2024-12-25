@@ -6,7 +6,7 @@ const MovieCard = ({ posterpath }) => {
   return (
     <div className="cursor-pointer">
       <img
-        className="max-w-none w-52 pr-4"
+        className="w-36 max-w-none md:w-48 pr-4"
         alt="movie card"
         src={IMG_CDN + posterpath}
       />
